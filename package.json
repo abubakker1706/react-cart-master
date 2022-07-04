@@ -1,0 +1,42 @@
+{
+  "name": "cartshop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "A e-commerce like application developed with Bootstrap and React.. <br><br> Netlify Url : https://zen-assignment-react-cartshop.netlify.app/ <br><br> Design Ref : https://startbootstrap.com/previews/shop-homepage <br><br> The main tasks are : <ul> <li>Give value  according to given Rating</li> <li>Disable add to cart button when added to card</li> <li>Remove item from cart & enable add to cart</li> </ul>",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
